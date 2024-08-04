@@ -239,7 +239,7 @@ class _HomepageScreenState extends State<HomepageScreen> {
                       ),
                       child: imagePost == null
                           ? Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding:  EdgeInsets.all(8.0),
                         child: Image.asset('assets/images/images (7).png'),
                       )
                           : Container(),
